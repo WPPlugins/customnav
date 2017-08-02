@@ -1,0 +1,49 @@
+©2008 themes-plugins.com
+
+CustomNav is a Navigation Menu Plugin for WordPress that enables a blog administrator to create an 
+additional custom navigation menu structure for their site. 
+
+This Software was written by T-roy http://themes-plugins.com. 
+The original idea was inspired by Lance http://lancelhoff.com
+
+Customnav is considered Open Source. Please see the included GPU GPL License for more information.
+
+
+For additional plugin information, including installation and usage, please visit http://themes-plugins.com/custom-nav-navigation-menu/
+
+*************************************************************************************
+*********************** Code snippet to add to header.php ***************************
+*************************************************************************************
+
+<ul><?php if (function_exists('cNShowit')) { cNShowit(); } ?></ul>
+
+
+*************************************************************************************
+
+
+1.) The basic elements required for a hyperlink are:
+   
+    a.) Display name
+
+    b.) href
+
+2.) All other fields are optional!
+
+3.) The attribute fields can be use for anything else associated with a hyper link that's not currently labeled in the            plug-in layout.
+
+    I.E. (some examples)
+
+    a.) onClick="alert('Some Java Script!')"
+
+    b.) style="font-family: Arial; font-size: 12px; color: #ffff00;" ----> 
+
+*Note if styles are used outside of the field labeled style, They have to have the style
+attribute call before the styles
+
+(example #1).
+
+If the only styles used are within the styles field, you can just enter the styles. 
+You can use both the style field and an attribute field(s) at the same time to get the look you are after.
+
+4.) Any of the fields in the form can be used without any regard for special use of single quotes('') or double quotes("").
+
